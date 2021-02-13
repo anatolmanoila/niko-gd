@@ -53,9 +53,9 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>Niko Graphic Design.</h1>
+                <h1 className={classes.title}>We design & print the identity of your brand.</h1>
                 <h3 className={classes.subtitle}>
-                  A Badass Material Kit based on Material-UI and NextJS.
+                  We Visualize Your Identity. How Your Brand Looks. Speaks. Feels. Empowers.
                 </h3>
               </div>
             </GridItem>

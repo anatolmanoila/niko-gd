@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* NextJS Material Kit v1.1.0 based on Material Kit Free - v2.0.2 (Bootstrap 4.0.0 Final Edition) and Material Kit React v1.8.0
+* Niko Graphic Design v1.1.0 based on Material Kit Free - v2.0.2 (Bootstrap 4.0.0 Final Edition) and Material Kit React v1.8.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/nextjs-material-kit
@@ -47,7 +47,7 @@ export default class MyApp extends App {
     let comment = document.createComment(`
 
 =========================================================
-* NextJS Material Kit v1.1.0 based on Material Kit Free - v2.0.2 (Bootstrap 4.0.0 Final Edition) and Material Kit React v1.8.0
+* Niko Graphic Design v1.1.0 based on Material Kit Free - v2.0.2 (Bootstrap 4.0.0 Final Edition) and Material Kit React v1.8.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/nextjs-material-kit
@@ -78,7 +78,7 @@ export default class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
-          <title>NextJS Material Kit by Creative Tim</title>
+          <title>Niko Graphic Design by Creative Tim</title>
         </Head>
         <Component {...pageProps} />
       </React.Fragment>

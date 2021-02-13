@@ -37,7 +37,7 @@ export default function LoginPage(props) {
       <Header
         absolute
         color="transparent"
-        brand="NextJS Material Kit"
+        brand="Niko Graphic Design"
         rightLinks={<HeaderLinks />}
         {...rest}
       />
