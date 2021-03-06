@@ -43,12 +43,12 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter responsive image={require("assets/img/nextjs_header.jpg")}>
+      <Parallax filter responsive image={require("assets/img/works/cover-1.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               {/* <h1 className={classes.title}>Your Story Starts With Us.</h1> */}
-              <h1 className={classes.title}>We design & print the identity of your brand.</h1>
+              <h1 className={classes.title}>We design the identity of your brand & vision.</h1>
               <h4>
                 We Visualize Your Identity. How Your Brand Looks. Speaks. Feels. Empowers.
               </h4>
