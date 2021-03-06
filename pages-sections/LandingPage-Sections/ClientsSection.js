@@ -32,9 +32,9 @@ export default function TeamSection() {
   return (
     <div className={classes.section}>
       <h2 className={classes.title}>Some of our awesome clients</h2>
-      <h4 className={classes.cardTitle}>
-          <small className={classes.smallTitle}>Driving technology for leading brands</small>
-      </h4>
+      <h6 className={classes.cardTitle}>
+        Driving technology for leading brands
+      </h6>
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>

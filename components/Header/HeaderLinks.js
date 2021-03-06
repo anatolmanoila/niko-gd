@@ -37,7 +37,7 @@ export default function HeaderLinks(props) {
           }}
           buttonIcon={Dashboard}
           dropdownList={[
-            <Link href="/our-works">
+            <Link href="#">
               <a className={classes.dropdownLink}>Graphic design</a>
             </Link>,
             <a
@@ -56,6 +56,15 @@ export default function HeaderLinks(props) {
           className={classes.navLink}
         >
           <Apps className={classes.icons} /> Our Works
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="#"
+          color="transparent"
+          className={classes.navLink}
+        >
+          <Apps className={classes.icons} /> Video gallery
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -98,7 +107,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="#"
+            href="https://www.facebook.com/Niko-Graphic-Design-103426025009299"
             target="_blank"
             className={classes.navLink}
           >

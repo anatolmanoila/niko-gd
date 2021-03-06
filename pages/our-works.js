@@ -49,6 +49,16 @@ import work9 from "assets/img/works/work9.jpg";
 import work10 from "assets/img/works/work-10.jpg";
 import work11 from "assets/img/works/work-11.jpg";
 
+// truck
+import workTruck01 from "assets/img/works/work-01.jpg";
+import workTruck02 from "assets/img/works/work-02.jpg";
+import workTruck03 from "assets/img/works/work-truck-01.jpg";
+
+// on exterior
+import workExt01 from "assets/img/works/work-03.jpg";
+import workExt02 from "assets/img/works/work-04.jpg";
+
+
 
 import styles from "assets/jss/nextjs-material-kit/pages/profilePage.js";
 
@@ -87,17 +97,18 @@ export default function ProfilePage(props) {
                     <img src={profile} alt="..." className={imageClasses} />
                   </div>
                   <div className={classes.name}>
-                    <h3 className={classes.title}>Our Works</h3>
+                    <h2 className={classes.title}>Our Works</h2>
                     <h6 style={{fontSize: "1rem"}}>Graphic Design for Transportation Industry</h6>
                   </div>
                 </div>
               </GridItem>
             </GridContainer>
             <div className="our-works-page__desc">
-              <h4>
-              With talented designers, smart tools and global resources, we examine the implications of every brand choice, create new experiences, and open doors to opportunity.
-              From the deepest understanding of the brand’s essence and visual universe, we help our clients to communicate their values and share their vision through images, brand behavior and visual content. We use our expertise in design to put ideas into images that fuel emotion, forge brand cultures and generate value.
-              </h4>
+              <h3>
+
+              From the deepest understanding of the brand’s essence and visual universe, we help our clients to communicate their <strong>values</strong> and share their <strong>vision</strong> through <strong>images, brand behavior and visual content</strong>.
+
+              </h3>
             </div>
             <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={12} lg={12} className={classes.navWrapper}>
@@ -124,13 +135,13 @@ export default function ProfilePage(props) {
                               src={work2}
                               className={navImageClasses}
                             />
-                          </GridItem>
-                          <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
                               src={work3}
                               className={navImageClasses}
                             />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
                               src={work4}
@@ -155,23 +166,27 @@ export default function ProfilePage(props) {
                     tabIcon: Schedule,
                     tabContent: (
                       <GridContainer justify="center">
-                          <GridItem xs={12} sm={12} md={6}>
+                          <GridItem xs={12} sm={12} md={8}>
                             <img
                               alt="..."
-                              src={work7}
+                              src={workTruck01}
                               className={navImageClasses}
-                              />
+                            />
+                            <img
+                              alt="..."
+                              src={workTruck02}
+                              className={navImageClasses}
+                            />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={8}>
                             <img
                               alt="..."
                               src={work7a}
                               className={navImageClasses}
                             />
-
-                          </GridItem>
-                          <GridItem xs={12} sm={12} md={6}>
-                          <img
+                            <img
                               alt="..."
-                              src={work7c}
+                              src={workTruck03}
                               className={navImageClasses}
                             />
                           </GridItem>
@@ -183,7 +198,7 @@ export default function ProfilePage(props) {
                     tabIcon: Palette,
                     tabContent: (
                       <GridContainer justify="center">
-                          <GridItem xs={12} sm={12} md={6}>
+                          <GridItem xs={12} sm={12} md={8}>
                             <img
                               alt="..."
                               src={work8}
@@ -230,8 +245,17 @@ export default function ProfilePage(props) {
                     tabIcon: Palette,
                     tabContent: (
                       <GridContainer justify="center">
-                          <GridItem xs={12} sm={12} md={4}>
-
+                          <GridItem xs={12} sm={12} md={10}>
+                            <img
+                              alt="..."
+                              src={workExt01}
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src={workExt02}
+                              className={navImageClasses}
+                            />
                           </GridItem>
                         </GridContainer>
                     )

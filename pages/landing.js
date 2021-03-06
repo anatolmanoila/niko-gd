@@ -48,7 +48,7 @@ export default function LandingPage(props) {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               {/* <h1 className={classes.title}>Your Story Starts With Us.</h1> */}
-              <h1 className={classes.title}>We design the identity of your brand & vision.</h1>
+              <h1 className={classes.title}>We design the graphic identity of your brand & business.</h1>
               <h4>
                 We Visualize Your Identity. How Your Brand Looks. Speaks. Feels. Empowers.
               </h4>
@@ -70,7 +70,7 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <ProductSection />
           <ClientsSection />
-          <WorkSection />
+          {/* <WorkSection /> */}
 
         </div>
       </div>

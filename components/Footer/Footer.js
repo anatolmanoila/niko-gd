@@ -33,16 +33,16 @@ export default function Footer(props) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/?ref=njsmk-footer"
+                href="#"
                 className={classes.block}
                 target="_blank"
               >
-                Creative Tim
+                Niko Graphic Design
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/presentation?ref=njsmk-footer"
+                href="#"
                 className={classes.block}
                 target="_blank"
               >
@@ -51,7 +51,7 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="http://blog.creative-tim.com/?ref=njsmk-footer"
+                href="#"
                 className={classes.block}
                 target="_blank"
               >
@@ -60,7 +60,7 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/license?ref=njsmk-footer"
+                href="#"
                 className={classes.block}
                 target="_blank"
               >
@@ -72,7 +72,7 @@ export default function Footer(props) {
         <div className={classes.right}>
           &copy; {1900 + new Date().getYear()} , made with{" "}
           <Favorite className={classes.icon} />
-          {" "} for design.
+          {" "} for a superb graphic design.
         </div>
       </div>
     </footer>
